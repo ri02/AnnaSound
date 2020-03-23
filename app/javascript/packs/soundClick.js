@@ -1,14 +1,14 @@
 
 const playSound = () => {
 
-const button = document.querySelector('#sound');
+  const sound = document.querySelectorAll('.sound');
+  sound.forEach ((s) => {
+    s.addEventListener("click", (event) => {
+      const soundOne = event.currentTarget.querySelector(".snipet");
+      soundOne.play();
+    });
+  });
 
-button.addEventListener("click", (event) => {
-   var soundOne = document.getElementById("wip");
-   soundOne.play();
-   console.log("Test");
-});
-
- };
+};
 
  export {playSound}
