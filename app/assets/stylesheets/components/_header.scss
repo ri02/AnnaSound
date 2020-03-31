@@ -1,0 +1,24 @@
+.header{
+  position:sticky;
+  top: 120px;
+  background: linear-gradient(180deg, $int_color, transparent);
+  width:100%;
+  height: 80px;
+  z-index: 7;
+}
+
+
+.box{
+  position:sticky;
+  top: 0;
+  height: 120px;
+  background: linear-gradient(180deg, $base_color, $int_color);
+  z-index: 7;
+        h1{
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    padding-top: 2rem;
+  }
+
+}
