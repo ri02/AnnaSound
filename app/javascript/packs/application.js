@@ -1,4 +1,4 @@
 import "bootstrap";
-import {playSound} from './soundClick.js';
+import {soundClick} from './soundClick.js';
 
-playSound()
+soundClick()
